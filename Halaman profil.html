@@ -3,94 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profil Biodata</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-        header, section { padding: 20px; }
-        nav { background: #eeeeee; padding: 10px; display: flex; justify-content: space-between; }
-        nav a { margin: 0 10px; text-decoration: none; color: #333; }
-        .header-content { display: flex; justify-content: space-between; align-items: center; }
-        .header-content img { max-width: 100%; height: auto; }
-        .about-grid, .portofolio-grid { display: grid; gap: 10px; }
-        .about-grid { grid-template-columns: repeat(3, 1fr); text-align: center; }
-        .portofolio-grid { grid-template-columns: repeat(3, 1fr); text-align: center; margin-top: 20px; }
-        .box { padding: 10px; background: #f5f5f5; border: 1px solid #ccc; }
-        .title { text-align: center; margin-top: 40px; }
-        .subtitle { text-align: center; color: gray; margin-bottom: 20px; }
-    </style>
+    <title>Profil</title>
 </head>
-<body>
+<body>  
+   <link rel="stylesheet" href="style.css">
+    <!-- Section 1 : Menu -->
+     <table border="1" width="100%">
+        <tr>
+            <td><strong>Shell</b></td>
+            <td align="right">
+                <a href="#Header">Header</a> |
+                <a href="#biodata">Biodata</a> |
+                <a href="#Portofolio">Portofolio</a> |
+            </td>
 
-    <nav>
-        <div><strong>SHELL Helix Eco Plus</strong></div>
-        <div>
-            <a href="#">Header</a>
-            <a href="#">Biodata</a>
-            <a href="#">Portofolio</a>
-        </div>
-    </nav>
+    <!-- Section 2 : Judul & Gambar -->
+     <a name="Header"></a>
+     <table border="1" width="100%">
+        <tr>
+            <td width="50%" valign="top">
+              <h1> Selamat Datang Di Website Vrendica</h1>
+              <p>Vrendica Arieshadhi, yang dikenal sebagai Bintang iklan Oli SHell Helix Eco Plus, memiliki portofolio yang beragam di dunia Otomotif. Ia menyukai dunia Otomotif sejak duduk di bangku SMP dan terus berkarya hingga di usia 28 tahun. Selain Otomotif, Vrendicha  juga bekerja di PT Paragon Technology and Innovation.</p>
+              <p> <a href="#">Pelajari Lebih Lanjut</a></p>
+            </td>
+            <td width="50%" valign="top">
+                <img src="c:\Users\aries\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\263FC48AAE39F219B4C71D9D4BB4AED2\WhatsApp Image 2025-05-07 at 07.18.01_24a3a5e2.jpg" alt="Vrendicha" width="600px" height="400px">
+            </td>
+        </tr>           
+  </header>
 
-    <header>
-        <div class="header-content">
-            <div>
-                <h2>Selamat Datang di Website vrendicha</h2>
-                <p>Vrendica Arieshadhi, yang dikenal sebagai Bintang iklan Oli SHell Helix Eco Plus, memiliki portofolio yang beragam di dunia Otomotif. Ia menyukai dunia Otomotif sejak duduk di bangku SMP dan terus berkarya hingga di usia 28 tahun. Selain Otomotif, Vrendicha  juga bekerja di PT Paragon Technology and Innovation. 
-            </div>
-            <div>
-                <img src="c:\Users\aries\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\263FC48AAE39F219B4C71D9D4BB4AED2\WhatsApp Image 2025-05-07 at 07.18.00_57f9c118.jpg" alt="Gambar header">
-            </div>
-        </div>
-    </header>
+    <!--section 3 : "biodata & 6 Box"-->
+    <a name="biodata"></a>
+      <table border="1" widht="100%;">
+        <tr>
+          <td colspan="3": align="center"">
+            <h2>Profil</h2>
+            <p>Pengenalan singkat.</p>
+          </td>
+        </tr>
+      <tr>
+        <td align="center">Nama Lengkap</td>
+        <td align="center">Pendidikan</td>
+        <td align="center">Pekerjaan</td>
+      </tr>
+      <tr>
+        <td align="center">Contact</td>
+        <td align="center">Hobi</td>
+        <td align="center">Alamat</td>
+      </tr>
+      <tr>
+        <td align="center">Vrendica Arieshadhi</td>
+        <td align="center">S1 Teknik Informatika</td>
+        <td align="center">Software Engineer</td>
+      </tr>
+      <tr>
+        <td align="center">08123456789</td>
+        <td align="center">Otomotif</td>
+        <td align="center">Jakarta</td>
+      </tr>
+    <table
 
-    <section>
-        <div class="title"><h2>Profil</h2></div>
-        <div class="subtitle">Pengenalan Singkat Tentang Diriku</div>
-        <div class="about-grid">
-            <div class="box">vrendicha Arieshadie Gustaf D</div>
-            <div class="box">Sarjana Administrasi Negara</div>
-            <div class="box">Staff Administrasi</div> 
-            <div class="box">087726494338</div>
-            <div class="box">Jalan - Jalan </div>
-            <div class="box">JL Tebet dalam Jakarta Selatan</div>
-        </div>
-    </section>
-
-    <section>
-        <div class="title"><h2>Portofolio</h2></div>
-        <div class="portofolio-grid">
-            <div class="box">
-                <img src="c:\Users\aries\OneDrive\Dokumen\1746584179464.jpg" alt="Proyek 1"width="300" height="200">
-                <p><strong>Customer Service Bank BNI</strong></p>
-                <ol>
-                    <li>Menyelesaikan Masalah Nasabah</li>
-                    <li>Mengurus Administrasi untuk Nasabah</li>
-                    <li>Memberikan Penawaran Produk</li>
-                    <li>Melakukan Pembukaan Rekening, Penutupan Rekening, dan Pemblokiran Rekening Nasabah</li>
-                    <li>Menyampaikan Informasi yang Dibutuhkan Nasabah</li>
-                    <li>Menjaga Hubungan Baik dengan Nasabah</li>
-                  </ol>
-            </div>
-            <div class="box">
-                <img src="c:\Users\aries\OneDrive\Dokumen\1746584989635.jpg" alt="Proyek 2"width="300" height="200">
-                <p><strong>Staff Admin Sampurna Group</strong></p>
-                <ol>
-                    <li>Pengeloaan dokumen
-                    <li>Pengimputan Data
-                    <li>Pengarspan data
-                    <li>Laporan 
-                </ol>
-            </div>
-            <div class="box">
-                <img src="c:\Users\aries\OneDrive\Dokumen\1746585412174.jpg" alt="Proyek 3"width="300" height="200">
-                <p><strong>Mekanik Shell</strong></p>
-                <ol>
-                    <li>Melakukan Pergantian Oli
-                    <li>Melakukan Perawatan service berkala
-                    <li>Melakukan Spooring Balancing 
-                </ol>
-            </div>
-        </div>
-    </section>
+            
+    <!--section 4 : "Portofolio"-->
+    <a name="Portofolio"></a>
+      <table border="1" width="100%">
+        <tr>
+          <td colspan="3" align="center">
+            <h3>Portofolio</h3>
+          </td>
+        </tr>
+      <tr> 
+        <td align="center"></td>
+          <img src="c:\Users\aries\OneDrive\Dokumen\1746584179464.jpg" alt="Vrendicha" width="350px" height="200px">
+          <b>Proyek 1</b>
+          <p>Deskripsi proyek 1</p>
+        </td>
+        <td align="center">
+          <img src="c:\Users\aries\OneDrive\Dokumen\1746584989635.jpg" alt="Vrendicha" width="350px" height="200px">
+          <b>Proyek 2</b>
+          <p>Deskripsi proyek 2</p>
+        </td>
+        <td align="center">
+          <img src="c:\Users\aries\OneDrive\Dokumen\1746585412174.jpg" alt="Vrendicha" width="350px" height="200px">
+          <b>Proyek 3</b>
+          <p>Deskripsi proyek 3</p>
+        </td>
+      </tr>
 
 </body>
 </html>
